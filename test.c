@@ -2,4 +2,5 @@
 int main()
 {
     printf("signUpButton");
+    printf("signInButton");
 }
