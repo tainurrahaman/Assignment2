@@ -60,6 +60,22 @@
     margin: 0px;
 }
 
+/* Styles for hamburger menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+    transition: 0.3s;
+}
+
 /* Banner Styles */
 
 .banner {
@@ -149,12 +165,24 @@
     color: rgba(255, 255, 255, 0.65);
 }
 
+
+.hide {
+    display: none;
+}
+
 /* Responsive Styles */
 
-/* For Small Devices */
-
-/* @media screen and (max-width:567px) {
+/* Mobile View */
+@media (max-width: 576px) {
     .structure {
         padding: 50px 20px;
     }
-} */
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
