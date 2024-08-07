@@ -290,6 +290,23 @@
     .three-fifty {
         font-size: 2.25rem;
     }
+
+    .habit-title {
+        margin: 0px 35px;
+    }
+
+    .habit-title h4 {
+        font-size: 2rem;
+    }
+
+    .image {
+        padding: 0px 50px;
+    }
+
+    .habit-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* Tablet View */
