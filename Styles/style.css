@@ -6,6 +6,11 @@
     background-color: rgba(17, 17, 17, 1);
 }
 
+.structure1 {
+    padding: 55px 190px 50px 190px;
+    /* background-color: rgb(38, 38, 38); */
+    background-color: rgba(17, 17, 17, 1);
+}
 
 .fontfamily {
     font-family: "Inter", sans-serif;
