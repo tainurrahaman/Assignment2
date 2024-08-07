@@ -103,7 +103,6 @@
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 30px;
-    text-align: justify;
 }
 
 .download-btn {
@@ -124,6 +123,10 @@
 
 }
 
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
 
 .btn-container1 {
     background-color: rgba(255, 255, 255, 0.1);
@@ -134,6 +137,7 @@
     bottom: 450px;
     left: 240px;
     cursor: pointer;
+    max-width: 100%;
 }
 
 .btn-container2 {
@@ -145,6 +149,7 @@
     right: 230px;
     bottom: 180px;
     cursor: pointer;
+    max-width: 100%;
 }
 
 .five-hundred {
@@ -184,6 +189,53 @@
 
     .hamburger-menu {
         display: flex;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner-title {
+        padding: 0px;
+    }
+
+    .banner-title h4 {
+        font-size: 2.24rem;
+        padding: 50px 50px 0px 0px;
+    }
+
+    .banner-title p {
+        font-size: 1rem;
+        padding-right: 50px;
+    }
+
+    .app-container {
+        padding: 0px;
+    }
+
+    .btn-container1 {
+        padding: 10px;
+        bottom: 420px;
+        left: 210px;
+    }
+
+    .btn-container2 {
+        padding: 10px;
+        right: 100px;
+        bottom: 150px;
+    }
+
+    .five-hundred {
+        font-size: 1.9rem;
+    }
+
+    .videos {
+        font-size: .6rem;
+    }
+
+    .three-fifty {
+        font-size: 2.25rem;
     }
 }
 
