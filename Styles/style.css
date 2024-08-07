@@ -180,7 +180,7 @@
 /* Mobile View */
 @media (max-width: 576px) {
     .structure {
-        padding: 50px 20px;
+        padding: 50px 10px;
     }
 
     .navbar-menu {
@@ -243,6 +243,33 @@
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .structure {
-        padding: 55px 80px;
+        padding: 20px;
+    }
+
+    .banner-title {
+        padding: 10px;
+        padding-top: 120px;
+    }
+
+    .banner-title h4 {
+        font-size: 3rem;
+    }
+
+    .btn-container1 {
+        bottom: 350px;
+        left: 150px;
+    }
+
+    .five-hundred {
+        font-size: 2rem;
+    }
+
+    .videos {
+        font-size: 0.7rem;
+    }
+
+    .btn-container2 {
+        right: 50px;
+        bottom: 240px;
     }
 }
