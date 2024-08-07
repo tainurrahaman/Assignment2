@@ -1,7 +1,7 @@
 /* Shared Styles */
 
 .structure {
-    padding: 55px 190px 100px 190px;
+    padding: 55px 190px 0px 190px;
     /* background-color: rgb(38, 38, 38); */
     background-color: rgba(17, 17, 17, 1);
 }
@@ -174,6 +174,7 @@
 .exercise {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .habit-title {
@@ -184,37 +185,43 @@
 .habit-title h4 {
     font-size: 3rem;
     color: #FFFFFF;
+    margin: 0px auto 14px;
 }
 
 .habit-title p {
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.5);
+    margin: 0px auto 50px;
 }
 
 .habit-image {
     display: flex;
+    max-width: 100%;
 }
 
 .image {
     padding: 0px 25px;
     text-align: center;
-    gap: 10px;
+    gap: 30px;
     justify-content: space-around;
 }
 
 .image img {
     border-radius: 100px;
+    margin-bottom: 30px;
 }
 
 .image h5 {
     font-size: 1.24rem;
     font-weight: 600;
     color: #FFFFFF;
+    margin: 0px auto 6px;
 }
 
 .image p {
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
 }
 
 .hide {
