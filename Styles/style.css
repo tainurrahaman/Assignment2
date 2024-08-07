@@ -17,6 +17,8 @@
     color: #FFFFFF;
     font-size: 1.12rem;
     margin: 0px;
+    border: none;
+    cursor: pointer;
 }
 
 /* Navbar Styles */
@@ -25,9 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
-    max-width: 100%;
-    height: auto;
+    margin-bottom: 30px;
 }
 
 .navbar-title,
@@ -46,16 +46,115 @@
 .navbar-menu {
     display: flex;
     flex-direction: row;
-    gap: 47px;
     padding: 4px 4px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .navbar-menu p {
     color: #FFFFFF;
     font-size: 1.12rem;
-    padding: 8px 0px;
+    padding: 8px 20px;
     margin: 0px;
 }
+
+/* Banner Styles */
+
+.banner {
+    display: flex;
+    gap: 80px;
+}
+
+.banner-title {
+    padding: 100px 70px 0px 0px;
+}
+
+.banner-title,
+.banner-image {
+    flex: 1;
+}
+
+.banner-title h4 {
+    font-size: 3.88rem;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.banner-title p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.download-btn {
+    border: 1px solid #FFF;
+    padding: 8px 20px;
+    border-radius: 39px;
+    color: #FFFFFF;
+    background-color: rgb(38, 38, 38);
+    font-size: 1.12rem;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.shape {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+.btn-container1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    position: relative;
+    bottom: 450px;
+    left: 240px;
+    cursor: pointer;
+}
+
+.btn-container2 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 12px;
+    padding: 20px 23px;
+    position: relative;
+    right: 230px;
+    bottom: 180px;
+    cursor: pointer;
+}
+
+.five-hundred {
+    font-size: 2.88rem;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+.three-fifty {
+    font-size: 1.5rem;
+    color: #FAFAF9;
+    font-weight: bold;
+}
+
+.videos {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* Responsive Styles */
+
+/* For Small Devices */
+
+/* @media screen and (max-width:567px) {
+    .structure {
+        padding: 50px 20px;
+    }
+} */
