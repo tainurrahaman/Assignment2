@@ -342,4 +342,14 @@
         right: 50px;
         bottom: 240px;
     }
+
+    .habit-title {
+        margin: 0px 100px;
+    }
+
+    .habit-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0px 40px;
+    }
 }
