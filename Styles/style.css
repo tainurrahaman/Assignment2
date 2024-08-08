@@ -231,6 +231,8 @@
     margin: 0px;
 }
 
+/* Run Away Styles */
+
 .run {
     display: flex;
     gap: 60px;
@@ -267,6 +269,8 @@
     /* zoom: 10.5; */
 }
 
+/* Training and Exercise Styles */
+
 .training {
     display: flex;
     flex-direction: column;
@@ -278,7 +282,7 @@
 }
 
 .training-title {
-    padding: 0px 400px 55px 0px;
+    padding: 0px 400px 0px 0px;
 }
 
 .training-title h3 {
@@ -291,6 +295,7 @@
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.5);
     padding: 14px 0px 58px 0px;
+    margin: 0px;
 }
 
 .training-image {
@@ -324,9 +329,27 @@
     height: auto;
 }
 
+.pic1 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+
 .pic2 {
     max-width: 43%;
     height: auto;
+}
+
+.pic2 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 250px;
+    left: 30px;
 }
 
 .pic3 {
@@ -334,9 +357,27 @@
     height: auto;
 }
 
+.pic3 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    bottom: 270px;
+    left: 20px;
+}
+
 .pic4 {
     max-width: 40%;
     height: auto;
+}
+
+.pic4 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #FFF;
+    position: relative;
+    bottom: 280px;
+    left: 200px;
 }
 
 .pic5 {
@@ -344,9 +385,27 @@
     height: auto;
 }
 
+.pic5 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
 .pic6 {
     max-width: 33%;
     height: auto;
+}
+
+.pic6 p {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
 }
 
 .hide {
