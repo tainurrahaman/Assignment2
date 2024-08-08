@@ -411,7 +411,7 @@
 /* BMI Styles */
 
 .bmi-title {
-    margin: 0px 300px 80px;
+    margin: 0px 300px;
 }
 
 .bmi-title h3 {
@@ -427,9 +427,44 @@
 }
 
 .bmi-measure {
+    padding: 50px 190px;
     display: flex;
     background-color: #222222;
-    width: 100%;
+}
+
+.bmi-table,
+.bmi-input {
+    flex: 1;
+}
+
+.bmi-table h3 {
+    font-size: 1.76rem;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 18px 15px;
+    text-align: start;
+}
+
+th {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+td {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .hide {
