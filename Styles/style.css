@@ -663,6 +663,39 @@ td {
         margin-bottom: 0px;
         color: rgba(255, 255, 255, 0.5);
     }
+
+    .bmi-measure {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    .bmi-table h3,
+    .bmi-input h3 {
+        font-size: 1rem;
+    }
+
+    table {
+        margin-top: 23px;
+        margin-bottom: 40px;
+    }
+
+    th {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    td {
+        font-size: 0.88rem;
+    }
+
+    .take-input {
+        max-width: 35%;
+        margin: 0px 8px 12px 0px;
+    }
+
+    #btn-primary {
+        width: 51%;
+    }
 }
 
 /* Tablet View */
