@@ -563,7 +563,8 @@ td {
 
     .habit-title h4,
     .run-title h4,
-    .training-title h3 {
+    .training-title h3,
+    .bmi-title h3 {
         font-size: 2rem;
     }
 
@@ -651,6 +652,16 @@ td {
     .pic6,
     .hawa {
         display: none;
+    }
+
+    .bmi-title {
+        margin: 0px;
+        padding: 10px 20px 30px 20px;
+    }
+
+    .bmi-title p {
+        margin-bottom: 0px;
+        color: rgba(255, 255, 255, 0.5);
     }
 }
 
