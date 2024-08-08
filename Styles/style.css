@@ -408,6 +408,30 @@
     left: 20px;
 }
 
+/* BMI Styles */
+
+.bmi-title {
+    margin: 0px 300px 80px;
+}
+
+.bmi-title h3 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.bmi-title p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 14px;
+}
+
+.bmi-measure {
+    display: flex;
+    background-color: #222222;
+    width: 100%;
+}
+
 .hide {
     display: none;
 }
