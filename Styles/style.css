@@ -558,16 +558,11 @@
         left: 30px;
     }
 
-    .pic4 p {
-        font-size: 0.76rem;
-        bottom: 50px;
-        left: 30px;
-    }
-
+    .pic4 p,
     .pic5 p {
         font-size: 0.76rem;
         bottom: 50px;
-        left: 30px;
+        left: 10px;
     }
 
     .pic3,
@@ -648,5 +643,28 @@
     .run-image img {
         height: auto;
         max-width: 100%;
+    }
+
+    .training {
+        padding: 0px 30px;
+    }
+
+    .training-title {
+        padding-right: 300px;
+    }
+
+    .pic2 p {
+        bottom: 150px;
+        left: 30px;
+    }
+
+    .pic3 p {
+        bottom: 60px;
+        left: 50px;
+    }
+
+    .pic4 p {
+        bottom: 70px;
+        left: 30px;
     }
 }
