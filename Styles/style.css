@@ -760,4 +760,8 @@ td {
         bottom: 70px;
         left: 30px;
     }
+
+    .bmi-title {
+        margin: 0px 120px 0px 29px;
+    }
 }
