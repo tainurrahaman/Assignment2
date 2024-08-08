@@ -797,4 +797,18 @@ td {
     .bmi-title {
         margin: 0px 120px 0px 29px;
     }
+
+    .bmi-measure {
+        padding: 34px 30px;
+    }
+
+    .take-input {
+        margin: 0px 8px 12px 0px;
+        max-width: 100%;
+    }
+
+    .input-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
