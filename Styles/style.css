@@ -338,8 +338,14 @@
         margin: 0px 35px;
     }
 
-    .habit-title h4 {
+    .habit-title h4,
+    .run-title h4 {
         font-size: 2rem;
+    }
+
+    .habit-title p,
+    .run-title p {
+        font-size: 0.88rem;
     }
 
     .image {
@@ -349,6 +355,33 @@
     .habit-image {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .structure1 {
+        padding: 0px;
+    }
+
+    .run {
+        flex-direction: column;
+        gap: 0px;
+        margin: auto 20px;
+    }
+
+    .run-title {
+        padding: 33px 31px 0px;
+    }
+
+    .run-title h4 {
+        margin-bottom: 15px;
+    }
+
+    #btn-primary {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .run-image {
+        padding: 31px 33px 35px;
     }
 }
 
