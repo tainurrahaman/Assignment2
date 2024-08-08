@@ -480,12 +480,14 @@
     }
 
     .habit-title h4,
-    .run-title h4 {
+    .run-title h4,
+    .training-title h3 {
         font-size: 2rem;
     }
 
     .habit-title p,
-    .run-title p {
+    .run-title p,
+    .training-title p {
         font-size: 0.88rem;
     }
 
@@ -523,6 +525,55 @@
 
     .run-image {
         padding: 31px 33px 35px;
+    }
+
+    .training {
+        padding: 50px 20px 0px;
+    }
+
+    .training-title {
+        padding: 0px;
+    }
+
+    .training-title p {
+        padding-bottom: 35px;
+    }
+
+    .first-container,
+    .second-container {
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+
+    .pic1,
+    .pic2,
+    .pic4,
+    .pic5 {
+        max-width: 49%;
+    }
+
+    .pic2 p {
+        font-size: 0.76rem;
+        bottom: 40px;
+        left: 30px;
+    }
+
+    .pic4 p {
+        font-size: 0.76rem;
+        bottom: 50px;
+        left: 30px;
+    }
+
+    .pic5 p {
+        font-size: 0.76rem;
+        bottom: 50px;
+        left: 30px;
+    }
+
+    .pic3,
+    .pic6,
+    .hawa {
+        display: none;
     }
 }
 
