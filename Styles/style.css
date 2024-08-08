@@ -420,7 +420,8 @@
     margin: 0px;
 }
 
-.bmi-title p {
+.bmi-title p,
+.bmi-input p {
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 14px;
@@ -437,7 +438,8 @@
     flex: 1;
 }
 
-.bmi-table h3 {
+.bmi-table h3,
+.bmi-input h3 {
     font-size: 1.76rem;
     color: #FFFFFF;
     margin: 0px;
@@ -465,6 +467,27 @@ th {
 td {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-input p {
+    margin: 14px 0px 34px 0px;
+}
+
+.take-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    max-width: 48%;
+    border-radius: 8px;
+    margin: 0px 12px 12px 0px;
+    padding: 13px 20px;
+}
+
+.moderate {
+    width: 100%;
+}
+
+.calculate {
+    width: 50%;
 }
 
 .hide {
