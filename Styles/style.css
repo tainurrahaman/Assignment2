@@ -500,6 +500,7 @@ td {
 }
 
 .team-image {
+    display: grid;
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px 0px 0px 20px;
@@ -757,7 +758,7 @@ td {
     }
 
     .team-title {
-        padding: 66px 42px 37px 42px;
+        padding: 16px 42px 37px 42px;
         margin: 0px;
     }
 
@@ -768,6 +769,22 @@ td {
 
     .team-title p {
         margin-bottom: 0px;
+    }
+
+    .team-image {
+        margin: 0px 10px 0px 10px;
+        padding: 10px 0px;
+    }
+
+    .first-team,
+    .second-team {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Image {
+        width: calc(100% - 40px);
+        padding: 10px 20px;
     }
 }
 
