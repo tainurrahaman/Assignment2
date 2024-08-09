@@ -752,6 +752,20 @@ td {
     #btn-primary {
         width: 51%;
     }
+
+    .team-title {
+        padding: 66px 42px 37px 42px;
+        margin: 0px;
+    }
+
+    .team-title h3 {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .team-title p {
+        margin-bottom: 0px;
+    }
 }
 
 /* Tablet View */
