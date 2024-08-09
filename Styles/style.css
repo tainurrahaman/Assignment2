@@ -910,4 +910,8 @@ td {
     .team-title p {
         margin-bottom: 35px;
     }
+
+    .team-image {
+        margin: 0px 35px 15px 35px;
+    }
 }
