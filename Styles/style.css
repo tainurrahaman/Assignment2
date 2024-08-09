@@ -495,6 +495,9 @@ td {
 
 
 /* Trainer Section Styles */
+.team-title p {
+    margin-bottom: 0px;
+}
 
 .team-image {
     border-radius: 18px;
@@ -880,5 +883,14 @@ td {
     .input-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-title {
+        padding: 52px 37px 0px 37px;
+        margin: 0px;
+    }
+
+    .team-title p {
+        margin-bottom: 35px;
     }
 }
