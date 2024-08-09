@@ -28,14 +28,16 @@
 }
 
 .habit-title h4,
-.run-title h4 {
+.run-title h4,
+.team-title h3 {
     font-size: 3rem;
     color: #FFFFFF;
     margin: 0px auto 14px;
 }
 
 .habit-title p,
-.run-title p {
+.run-title p,
+.team-title p {
     font-size: 0.88rem;
     color: rgba(255, 255, 255, 0.5);
     margin: 0px auto 50px;
@@ -196,7 +198,8 @@
     max-width: 100%;
 }
 
-.habit-title {
+.habit-title,
+.team-title {
     text-align: center;
     margin: 0px 180px;
 }
@@ -489,6 +492,59 @@ td {
 .calculate {
     width: 50%;
 }
+
+
+/* Trainer Section Styles */
+
+.team-image {
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px 0px 20px;
+    margin: 0px;
+}
+
+
+.first-team,
+.second-team {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    opacity: 0.8;
+    background-size: 150%;
+}
+
+.Image {
+    width: calc((100% - 20px)/3);
+    height: auto;
+    padding: 0px 20px 20px 0px;
+}
+
+.Image h5 {
+    font-size: 1.24rem;
+    color: #FFFFFF;
+    margin: 0px;
+    position: relative;
+    bottom: 56px;
+    left: 19px;
+}
+
+.Image p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    margin-top: 3px;
+    position: relative;
+    bottom: 56px;
+    left: 19px;
+}
+
 
 .hide {
     display: none;
