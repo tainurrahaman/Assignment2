@@ -1,14 +1,21 @@
 /* Shared Styles */
 
+body {
+    margin: 0px;
+}
+
 .structure {
     padding: 55px 190px 0px 190px;
-    /* background-color: rgb(38, 38, 38); */
     background-color: rgba(17, 17, 17, 1);
+}
+
+.Structure {
+    padding: 55px 190px 0px 190px;
+    background-color: rgba(34, 34, 34, 1);
 }
 
 .structure1 {
     padding: 55px 190px 50px 190px;
-    /* background-color: rgb(38, 38, 38); */
     background-color: rgba(17, 17, 17, 1);
 }
 
@@ -147,7 +154,7 @@
 
 .banner-image img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .btn-container1 {
@@ -625,9 +632,19 @@ td {
 /* Responsive Styles */
 
 /* Mobile View */
+
 @media (max-width: 576px) {
+
     .structure {
-        padding: 50px 10px;
+        padding: 50px 20px;
+    }
+
+    .Structure {
+        padding: 50px 20px 0px 20px;
+    }
+
+    .navbar {
+        margin-bottom: 0px;
     }
 
     .navbar-menu {
@@ -655,6 +672,7 @@ td {
     .banner-title p {
         font-size: 1rem;
         padding-right: 50px;
+        line-height: 24px;
     }
 
     .app-container {
@@ -686,7 +704,7 @@ td {
     }
 
     .habit-title {
-        margin: 0px 35px;
+        margin: 20px 35px 0px;
     }
 
     .habit-title h4,
@@ -700,10 +718,16 @@ td {
     .run-title p,
     .training-title p {
         font-size: 0.88rem;
+        line-height: 24px;
     }
 
     .image {
         padding: 0px 50px;
+    }
+
+    .image p {
+        padding-bottom: 30px;
+        line-height: 18px;
     }
 
     .habit-image {
@@ -713,6 +737,7 @@ td {
 
     .structure1 {
         padding: 0px;
+        padding-top: 30px;
     }
 
     .run {
@@ -739,15 +764,21 @@ td {
     }
 
     .training {
-        padding: 50px 20px 0px;
+        padding: 20px 20px 0px;
     }
 
     .training-title {
         padding: 0px;
     }
 
+    .training-title h3 {
+        padding-right: 22px;
+    }
+
     .training-title p {
         padding-bottom: 35px;
+        padding-right: 42px;
+        line-height: 24px;
     }
 
     .first-container,
@@ -790,6 +821,7 @@ td {
     .bmi-title p {
         margin-bottom: 0px;
         color: rgba(255, 255, 255, 0.5);
+        line-height: 24px;
     }
 
     .bmi-measure {
@@ -837,6 +869,7 @@ td {
 
     .team-title p {
         margin-bottom: 0px;
+        line-height: 24px;
     }
 
     .team-image {
@@ -863,6 +896,10 @@ td {
 
     .fitness-title {
         padding: 0px 36px 30px 0px;
+    }
+
+    .fitness-title p {
+        line-height: 24px;
     }
 
     .get-started {
