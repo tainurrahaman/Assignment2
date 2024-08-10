@@ -431,7 +431,8 @@
     margin-bottom: 14px;
 }
 
-.bmi-measure {
+.bmi-measure,
+.fitness-footer {
     padding: 50px 190px;
     display: flex;
     background-color: #222222;
@@ -496,8 +497,12 @@ td {
 
 
 /* Trainer Section Styles */
+.structure {
+    padding-bottom: 50px;
+}
+
 .team-title p {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .team-image {
@@ -550,6 +555,16 @@ td {
     left: 19px;
 }
 
+/* Footer Styles */
+
+.fitness-title,
+.get-started {
+    flex: 1;
+}
+
+.get-started {
+    display: flex;
+}
 
 .hide {
     display: none;
