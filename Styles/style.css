@@ -838,6 +838,21 @@ td {
         width: calc(100% - 40px);
         padding: 10px 20px;
     }
+
+    .fitness-footer {
+        padding: 44px 20px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .fitness-title {
+        padding: 0px 36px 30px 0px;
+    }
+
+    .get-started {
+        flex-direction: column;
+        padding: 0px 170px 20px 0px;
+    }
 }
 
 /* Tablet View */
