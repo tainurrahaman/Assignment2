@@ -981,4 +981,19 @@ td {
     .team-image {
         margin: 0px 35px 15px 35px;
     }
+
+    .fitness-footer {
+        flex-direction: column;
+        padding: 66px 32px 70px 32px;
+        gap: 0px;
+    }
+
+    .fitness-title {
+        padding: 0px 239px 102px 0px;
+    }
+
+    .get-started {
+        padding-right: 168px;
+        gap: 152px;
+    }
 }
