@@ -556,14 +556,50 @@ td {
 }
 
 /* Footer Styles */
+.fitness-footer {
+    padding-top: 66px;
+    padding-bottom: 78px;
+    gap: 102px;
+}
 
 .fitness-title,
 .get-started {
     flex: 1;
 }
 
+.fitness-title h3 {
+    font-size: 4.38rem;
+    font-weight: bolder;
+    color: #E6533C;
+    font-style: italic;
+    margin: 0px;
+}
+
+.fitness-title p {
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+}
+
 .get-started {
     display: flex;
+    gap: 52px;
+}
+
+.get-started1 h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-bottom: 39px;
+}
+
+.get-started1 p {
+    font-size: 1.45rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+    font-weight: normal;
+    /* margin: 20px auto; */
 }
 
 .hide {
