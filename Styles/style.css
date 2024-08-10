@@ -558,7 +558,7 @@ td {
 /* Footer Styles */
 .fitness-footer {
     padding-top: 66px;
-    padding-bottom: 78px;
+    padding-bottom: 0px;
     gap: 102px;
 }
 
@@ -599,7 +599,23 @@ td {
     color: rgba(255, 255, 255, 0.5);
     line-height: 120%;
     font-weight: normal;
-    /* margin: 20px auto; */
+}
+
+.copyright {
+    padding: 50px 190px;
+    background-color: #222222;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.copyright hr {
+    opacity: 0.1;
+}
+
+.copyright p {
+    font-size: 1.24rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .hide {
