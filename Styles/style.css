@@ -1014,7 +1014,7 @@ td {
 
     .fitness-footer {
         flex-direction: column;
-        padding: 66px 32px 70px 32px;
+        padding: 66px 32px 20px 32px;
         gap: 0px;
     }
 
@@ -1025,5 +1025,13 @@ td {
     .get-started {
         padding-right: 168px;
         gap: 152px;
+    }
+
+    .copyright {
+        padding: 10px 30px 50px;
+    }
+
+    .copyright p {
+        margin-top: 30px;
     }
 }
