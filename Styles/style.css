@@ -856,7 +856,7 @@ td {
     }
 
     .fitness-footer {
-        padding: 44px 20px;
+        padding: 44px 20px 5px 20px;
         flex-direction: column;
         gap: 0px;
     }
@@ -868,6 +868,20 @@ td {
     .get-started {
         flex-direction: column;
         padding: 0px 170px 20px 0px;
+    }
+
+    .copyright {
+        padding: 5px 57px 57px 18px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .copyright hr {
+        margin: 0px;
+    }
+
+    .copyright p {
+        margin-bottom: 0px;
     }
 }
 
